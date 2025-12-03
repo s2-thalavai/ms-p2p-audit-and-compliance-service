@@ -36,3 +36,4 @@ Append-only event consumption from Kafka; optimized for streaming, low memory fo
 7.  Use a lightweight local index (RocksDB/BadgerDB/LevelDB) to store processed eventIds → S3 path for quick dedupe checks (bounded by retention, can be TTL-ed).
     
 8.  Use schema registry (Avro/Protobuf) for payloads; the consumer validates schema.
+
